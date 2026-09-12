@@ -1,0 +1,25 @@
+// jsc is my own version of JS
+// _+ is string add, #+ is number add.
+store variable sorting(a, z), env = "dotenv/PlaybackSettings".json[#all]; // making it z, a will reverse the word order
+store variable sorting(), normalvariable = "hello";
+
+waited(console), function(){
+  from(console):log(normalvariable _+ " shhshshshsheuekndj");
+}; // because console is SOMEHOW AN API LOL
+store waited(operatingSystem|device) in device, function(){
+  waited(device.sharing), function(){
+    s.sharing.tools[2](); // which goes into s.sharing.tools then finds the second index and call it because it's a function
+    from(console):log(`
+    Hello this is a template literal
+    Please go touch grass or something
+    `);
+  }
+};
+new Member in device.nrmlstorage file (data) {
+  new Name in data typeof "just";
+  new Extension in data typeof "text/plain"; // if you don't know what that extension is it's .txt
+  new Contents in data typeof "hello\nbruh really boring isn't that right";
+};
+// same thing with device.internalStorage too the recommended now is device.nrmlstorage
+
+code.clear().startFresh(); // clears all of the previous code
