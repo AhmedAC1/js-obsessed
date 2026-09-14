@@ -1,0 +1,23 @@
+/service usage: "globallang"/
+class app Bus(asynchronous, android, programming, currentClass) {code{ // argument naming doesn't matter
+  asynchronous? : false; // this is how you define/reassign variables
+  android.app? : true;
+
+  programming.custom? : false;
+  canDefVars build: {json{
+    manifest: "./AndroidManifest.xml",
+    extends of currentClass("./") {code, json{
+      load: {json{
+        "offlineOBPL": "src/html/offline.html", "text/html", // text/html is optional // OBPL stands for Owned by Programming Language
+        "test": "src/html/test.html", "text/html"
+      }}
+    }}
+  }}
+}};
+class item Bus(goto.functionOBPL) {code{
+  goto(if computer.minecraft.replaceThis(minecraft, *) minecraft else exit()); // computer are like os you know in Playback.jsc check it out but instead of awaiting it
+}};
+// also if you change the service it's irrreverseable be careful
+class bus Bus(github) {code{
+  this(class).commit(this github.file); // targets GitHub also this(class) is an alternative but recommended way of currentClass
+}};
