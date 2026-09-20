@@ -1,5 +1,10 @@
-javascript:function(){
+javascript.set("interval", code => {
   console.log("Bookmarklet running in the background...");
   import proximity;
-  proximity.say("Keep your left mouse held down for 5 seconds!", 5).then()
-}();
+  proximity.say("Keep your left mouse held down for 5 seconds!", 5).then(trigger => {
+    do OBPL.next
+  });
+  proximity.exact.waitInMilliseconds(7 * 1000).then(trigger => {
+    return
+  });
+}, code.delay = 35) => while (true) { repeat };
