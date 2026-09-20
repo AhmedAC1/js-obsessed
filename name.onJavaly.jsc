@@ -13,7 +13,7 @@ class of Main extends Main Java {
   class switch Java;
   new switch Scanner;
   void Command super = function (dafunc) {
-    dafunc.push(["then"]).then(trigger -> {
+    dafunc.push(["then"]).then(trigger => {
       void::return || void.clearConsole();
       trigger::return
     };
