@@ -1,0 +1,5 @@
+javascript:function(){
+  console.log("Bookmarklet running in the background...");
+  import proximity;
+  proximity.say("Keep your left mouse held down for 5 seconds!", 5).then()
+}();
